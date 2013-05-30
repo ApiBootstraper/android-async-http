@@ -61,7 +61,7 @@ public class ImageView extends android.widget.ImageView
 
             @Override
             public void onFailure(Throwable e) {
-                Log.e("Load image failed! ", e);
+                Log.e(TAG, "Load image failed!");
             }
         });
     }
